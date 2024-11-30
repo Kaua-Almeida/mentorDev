@@ -23,8 +23,8 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                <?php include "./includes/views/admin/forms/createMentoringForm.php"?>
-                
+               
+                <?php include "./includes/views/admin/forms/createActivitiesForm.php"?>
 
             <!-- Footer -->
           <?php include "./includes/footer.php"?>

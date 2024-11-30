@@ -12,6 +12,8 @@ use App\Controllers\LogoutController;
 use App\Controllers\AdminControllers\CreateMentoringController;
 use App\Controllers\AdminControllers\CreateMentoringPostController;
 
+use App\Controllers\AdminControllers\CreateActivitiesController;
+use App\Controllers\AdminControllers\CreateActivitiesPostController;;
 
 
 $uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
