@@ -29,8 +29,13 @@ class User
     }
     public function getFunction()
     {
-
+        return $this->function;
     }
+    public function setFunction(string $function)
+    {
+        $this->function = $function;
+    }
+
 
 
 }

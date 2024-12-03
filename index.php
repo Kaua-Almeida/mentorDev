@@ -15,6 +15,8 @@ use App\Controllers\AdminControllers\CreateMentoringPostController;
 use App\Controllers\AdminControllers\CreateActivitiesController;
 use App\Controllers\AdminControllers\CreateActivitiesPostController;;
 
+use App\Controllers\AdminControllers\CreateUsersController;
+use App\Controllers\AdminControllers\CreateUsersPostController;
 
 $uri = parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH);
 $method = $_SERVER["REQUEST_METHOD"];
